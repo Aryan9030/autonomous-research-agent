@@ -1,51 +1,29 @@
-# ─── CORE FASTAPI ──────────────────────────────────────
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-websockets==12.0
-python-multipart==0.0.6
-httpx==0.26.0
-
-# ─── AI / LANGCHAIN ────────────────────────────────────
-langchain==0.1.0
-langchain-openai==0.0.5
-langchain-community==0.0.20
-langgraph==0.0.26
-openai==1.10.0
-
-# ─── VECTOR DATABASE ───────────────────────────────────
-chromadb==0.4.22
-
-# ─── DATABASE ──────────────────────────────────────────
-sqlalchemy==2.0.25
-psycopg2-binary==2.9.9
-alembic==1.13.1
-
-# ─── REDIS / CACHE ─────────────────────────────────────
-redis==5.0.1
-celery==5.3.6
-
-# ─── PAPER FETCHING ────────────────────────────────────
-arxiv==2.1.0
-requests==2.31.0
-beautifulsoup4==4.12.3
-lxml==5.1.0
-
-# ─── DATA PROCESSING ───────────────────────────────────
-pydantic==2.5.3
-pydantic-settings==2.1.0
-python-dotenv==1.0.0
-numpy==1.26.3
-pandas==2.2.0
-
-# ─── TESTING ───────────────────────────────────────────
-pytest==7.4.4
-pytest-asyncio==0.23.3
-pytest-cov==4.1.0
-
-# ─── UTILITIES ─────────────────────────────────────────
-python-jose==3.3.0
-passlib==1.7.4
-python-dateutil==2.8.2
-aiofiles==23.2.1
-tenacity==8.2.3
-loguru==0.7.2
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+aiofiles
+httpx
+langchain
+langchain-groq
+langchain-community
+langchain-chroma
+langchain-huggingface
+langgraph
+groq
+chromadb
+sentence-transformers
+sqlalchemy
+alembic
+requests
+beautifulsoup4
+lxml
+pydantic
+pydantic-settings
+python-dotenv
+numpy
+tenacity
+python-dateutil
+loguru
+feedparser
+legacy-cgi
